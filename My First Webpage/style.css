@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    background-color: black;
+}
+h1{
+    color: beige;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
