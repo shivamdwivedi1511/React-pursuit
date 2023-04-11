@@ -8,9 +8,15 @@
     <title>My Webpage</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container" id="root">
       <h1>Shivam Says Hi!!</h1>
     </div>
+    <script>
+        const root = document.getElementById('root');
+        const ele = document.createElement('h2');
+        ele.innerHTML ='Adios by JS';
+        root.appendChild(ele)
+    </script>
   </body>
    
 </html>
